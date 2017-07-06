@@ -17,7 +17,7 @@
           <input ng-model="credit.value" class="form-control" placeholder="Informe o Valor"
             ng-change="bcCtrl.calculateValues()" type="number" ng-readonly="bcCtrl.tabDelete" />
         </td>
-        <td class="table-actions">
+        <td style="width:150px;">
           <button class="btn btn-success" ng-disabled="bcCtrl.tabDelete"
             ng-click="bcCtrl.addCredit($index)"><i class="fa fa-plus"></i>
           </button>
